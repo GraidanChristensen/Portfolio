@@ -1,4 +1,25 @@
 .Landing{
-    background-color: aliceblue;
-    height: 100vh;
+    min-height: 100vh;
+    scroll-snap-align: start;
+    background-color: white;
+    font-family: 'Dosis', sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.Landing h1{
+    font-size: 90px;
+    color: rgb(78, 78, 78);
+    /* position: absolute;
+    left: 30%;
+    top: 10%; */
+}
+
+.Landing img{
+    width: 25%;
+    border-radius: 50%;
+    /* position: absolute;
+    left: 40%;
+    top: 30%; */
 }
