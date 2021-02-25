@@ -11,12 +11,10 @@ class App extends Component{
     return(
       <div className="App">
         <Menu/>
-        <div className="scrollParent">
           <Landing className="scrollChild"/>
           <About className="scrollChild"/>
           <Projects className="scrollChild"/>
           <Contact className="scrollChild"/>
-        </div>
       </div>
     )
   }

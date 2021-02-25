@@ -2,7 +2,6 @@
     background-color: rgb(124, 124, 124);
     min-height: 100vh;
     scroll-snap-align: start;
-    padding-top: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;

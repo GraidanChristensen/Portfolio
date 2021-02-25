@@ -1,7 +1,49 @@
 .Projects{
     background-color: white;
     min-height: 100vh;
-    padding-top: 70px;
     scroll-snap-align: start;
+    font-family: 'Dosis', sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
+
+.projectCarousel{
+    min-height: 90vh;
+    width: 80vw;
+}
+
+.Project{
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 80, 80);
+    text-align: center;
+}
+
+.github{
+    width: 50px;
+    opacity: 60%;
+}
+
+.swervesite{
+    width: 50vw;
+}
+
+.swerveContent{
+    margin-right: 30px;
+}
+
+button.rec-dot{
+    background-color: rgb(134, 134, 134);
+    box-shadow: 0 0 1px 3px rgba(87, 87, 87, 0.5);
+  }
+  
+  button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+    box-shadow: 0 0 1px 3px rgba(197, 197, 197, 0.5);
+  }
+  
