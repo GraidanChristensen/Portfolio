@@ -1,6 +1,30 @@
 .Contact{
-    background-color: white;
-    height: 100vh;
+    background-color: rgb(122, 122, 122);
     scroll-snap-align: start;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.particles{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.socialLinks{
+    position: absolute;
+    left: 50%;
+}
+
+.socialIcon{
+    position: relative;
+    left: -50%;
+    margin: 20px;
+    height: 200px;
+}
+
+.socialIcon:hover{
+    opacity: 50%;
 }
