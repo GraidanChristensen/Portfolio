@@ -42,7 +42,7 @@
     width: 50vh;
 }
 
-.skiVideo{
+.skiVid{
     width: 50vw;
 }
 
@@ -70,11 +70,12 @@
 
     .aboutSpacing img{
         width: 60vw;
-        margin: 50px;
+        margin-top: 40px;
     }
 
     .aboutSpacing h1{
         width: 80vw;
+        margin: 50px;
     }
 
     .skiVideo{

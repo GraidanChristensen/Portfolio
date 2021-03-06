@@ -21,8 +21,10 @@ export default class About extends Component{
                     </Fade>
                 </div>
                 <div className="aboutSpacing large">
-                    <Fade right>
+                    <Fade left>
                         <img src={fish} alt="fishing large" />
+                    </Fade>
+                    <Fade right>
                         <h1> I recently received an Associate of Science degree from Snow College and completed DevMountain's web development course.</h1>
                     </Fade>
                 </div>
@@ -30,7 +32,9 @@ export default class About extends Component{
                     <Fade left>
                         <h1>When I'm not coding I am on the mountain freestyle skiing or fly fishing.</h1>
                     </Fade>
-                    <video className="skiVideo large" loop autoPlay muted src={skivid}> Your browser does not support this video</video>
+                    <Fade right>
+                    <video className="skiVid large" loop autoPlay muted src={skivid}> Your browser does not support this video</video>
+                    </Fade>
                 </div>
 
                 {/*displays on mobile view*/}
