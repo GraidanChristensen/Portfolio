@@ -7,6 +7,16 @@
     justify-content: center;
     align-items: center;
     font-family: 'Dosis', sans-serif;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.firstAbout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
 }
 
 .About h1{
@@ -17,6 +27,58 @@
 
 .aboutSpacing{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     margin: 30px;
+    min-height: 100vh;
+
+}
+
+.aboutSpacing h1{
+    width: 50%;
+}
+
+.aboutSpacing img{
+    width: 50vh;
+}
+
+.skiVideo{
+    width: 50vw;
+}
+
+.small{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px){
+    .small{
+        display: flex;
+    }
+
+    .large{
+        display: none;
+    }
+
+    .firstAbout{
+        height: 100%;
+        margin-top: 50px;
+    }
+
+    .aboutSpacing{
+        flex-direction: column;
+    }
+
+    .aboutSpacing img{
+        width: 60vw;
+        margin: 50px;
+    }
+
+    .aboutSpacing h1{
+        width: 80vw;
+    }
+
+    .skiVideo{
+        width: 80vw;
+        margin: 50px 0;
+    }
 }

@@ -1,7 +1,7 @@
 import react, {Component} from 'react';
 import {Fade} from 'react-reveal';
 import './Landing.css'
-import portrait from '../../media/profile pic.j bwjpg.jpg'
+import portrait from '../../media/b&wself.jpg';
 
 export default class Landing extends Component{
     render(){
