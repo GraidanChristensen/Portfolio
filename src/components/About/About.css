@@ -35,7 +35,7 @@
 }
 
 .aboutSpacing h1{
-    width: 50%;
+    width: 50vw;
 }
 
 .aboutSpacing img{
@@ -75,11 +75,11 @@
 
     .aboutSpacing h1{
         width: 80vw;
-        margin: 50px;
+        margin-top: 50px;
     }
 
     .skiVideo{
         width: 80vw;
-        margin: 50px 0;
+        margin-top: 50px;
     }
 }
