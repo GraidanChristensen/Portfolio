@@ -48,8 +48,8 @@ export default class About extends Component{
                 <Fade bottom>
                     <img src={fish} alt="fishing small" />
                     <h1> I recently received an Associate of Science degree from Snow College and completed DevMountain's web development course.</h1>
-                    {/* <video className="skiVideo small" loop autoPlay muted src={skivid}> Your browser does not support this video</video> */}
-                    <div dangerouslySetInnerHTML={{
+                    <video className="skiVideo small" loop autoPlay controls muted src={skivid}> Your browser does not support this video</video>
+                    {/* <div dangerouslySetInnerHTML={{
                         __html: `
                         <video 
                         width="70%"
@@ -60,7 +60,7 @@ export default class About extends Component{
                         <source src=${skivid} type="video/mp4" />
                         </video>`
                     }}
-                    />
+                    /> */}
                     <h1>When I'm not coding I am on the mountain freestyle skiing or fly fishing.</h1>
                 </Fade>
                 </div>
