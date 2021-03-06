@@ -12,6 +12,11 @@
 .About h1{
     width: 60%;
     color: white;
-    font-size: 50px;
-    text-align: center;
+    font-size: 30px;
+}
+
+.aboutSpacing{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
 }

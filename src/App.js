@@ -1,16 +1,17 @@
 import './App.css';
 import {Component} from 'react';
 import Landing from './components/Landing/Landing';
-import Projects from './components/Projects/Projects'
-import About from './components/About/About'
-import Menu from './components/Menu/Menu'
-import Contact from './components/Contact/Contact'
+import Projects from './components/Projects/Projects';
+import About from './components/About/About';
+import Menu from './components/Menu/Menu';
+import Contact from './components/Contact/Contact';
+import transparent from './media/transparent.png';
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <Menu/>
+          <Menu/>
           <Landing className="scrollChild"/>
           <About className="scrollChild"/>
           <Projects className="scrollChild"/>
@@ -21,3 +22,4 @@ class App extends Component{
 }
 
 export default App;
+
