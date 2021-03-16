@@ -37,6 +37,10 @@
 
 .swerveContent{
     margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 button.rec-dot{
@@ -47,4 +51,36 @@ button.rec-dot{
   button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
     box-shadow: 0 0 1px 3px rgba(197, 197, 197, 0.5);
   }
-  
+
+  .SmallProjects{
+      display: none;
+  }
+
+  @media only screen and (max-width: 800px){
+    .Project{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .github{
+        margin-bottom: 10px;
+    }
+
+    .SmallProjects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+    .Projects{
+        display: none;
+    }
+
+    .swervesite{
+        width: 80vw;
+        margin: 20px;
+    }
+}

@@ -24,6 +24,7 @@
     left: -50%;
     margin: 20px;
     height: 10vw;
+    /* display: flex; */
 }
 
 .socialIcon:hover{
@@ -44,8 +45,16 @@
     cursor: pointer;
 }
 
-/* @media only screen and (max-width: 1550px){
+@media only screen and (max-width: 800px){
     .socialIcon{
-        height: 125px;
+        margin: 5px
     }
-} */
+
+    .Contact{
+        justify-content: flex-start;
+    }
+
+    .socialLinks{
+        margin-top: 50%;
+    }
+}

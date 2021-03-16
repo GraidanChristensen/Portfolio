@@ -5,7 +5,7 @@ import Projects from './components/Projects/Projects';
 import About from './components/About/About';
 import Menu from './components/Menu/Menu';
 import Contact from './components/Contact/Contact';
-import transparent from './media/transparent.png';
+import SmallProjects from './components/Projects/SmallProjects';
 
 class App extends Component{
   render(){
@@ -15,6 +15,7 @@ class App extends Component{
           <Landing className="scrollChild"/>
           <About className="scrollChild"/>
           <Projects className="scrollChild"/>
+          <SmallProjects/>
           <Contact className="scrollChild"/>
       </div>
     )

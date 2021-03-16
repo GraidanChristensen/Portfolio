@@ -19,3 +19,9 @@
 .menuLink{
     cursor: pointer;
 }
+
+@media only screen and (max-width: 700px){
+    .Menu{
+        display: none;
+    }
+}
