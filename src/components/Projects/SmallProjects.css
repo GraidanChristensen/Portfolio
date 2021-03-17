@@ -6,7 +6,7 @@
     min-height: 100vh;
     margin-top: 50px;
     font-family: 'Dosis', sans-serif;  
-
+    padding-bottom: 50px;
 }
 
 .projectContainer{
@@ -16,10 +16,20 @@
 .projectImage{
     opacity: 1;
     width: 60vw;
-    margin-bottom: 50px;
+    margin-top: 50px;
     border: 1px solid rgb(233, 233, 233);
     transition: .5s ease;
     backface-visibility: hidden;
+    cursor: pointer;
+}
+.hideImage{
+    display: none;
+}
+
+.heloImage{
+    width: 60vw;
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
 .projectContent{
@@ -40,6 +50,7 @@
 
 .headingLink{
     color: rgb(78, 78, 78);
+    cursor: pointer;
 }
 
 a:link {
@@ -83,5 +94,9 @@ a:link {
     .projectImage{
         width: 80vw;
         margin-bottom: 20px;
+    }
+
+    .heloImage{
+        width: 80vw;
     }
 }
