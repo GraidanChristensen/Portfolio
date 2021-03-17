@@ -29,6 +29,10 @@
 .heloImage{
     width: 60vw;
     margin-bottom: 5px;
+}
+
+.heloArrow{
+    width: 30px;
     cursor: pointer;
 }
 
@@ -69,7 +73,7 @@ a:link {
     text-decoration: none;
   }
 
-.projectContainer:hover .projectImage {
+  .projectContainer:hover .projectImage {
     opacity: 0.1;
   }
   

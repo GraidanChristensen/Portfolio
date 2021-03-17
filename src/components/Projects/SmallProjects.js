@@ -4,9 +4,8 @@ import motoring from '../../media/motoring.png'
 import helohome from '../../media/helohome.png'
 import helofeed from '../../media/helofeed.png'
 import helopost from '../../media/helopost.png'
-import arrow from '../../media/arrow.png'
 import {Fade} from 'react-reveal';
-
+import arrow from '../../media/greyarrow.png'
 import './SmallProjects.css'
 
 export default class SmallProjects extends Component{
@@ -42,12 +41,13 @@ export default class SmallProjects extends Component{
                         <h3 onClick={() => {this.handleClick()}} className="headingLink">React, Node.js, PostgreSQL, Javascript, CSS</h3>
                         <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/helo"><img className="github" alt="githublogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
                     </div>
-                </div>   
-                    <Fade bottom>
-                    <img onClick={() => {this.handleClick()}} className={this.state.toggleDrop ? "heloImage" : "hideImage"} alt="helo site" src={helofeed}/>
-                    <img onClick={() => {this.handleClick()}} className={this.state.toggleDrop ? "heloImage" : "hideImage"} alt="helo site" src={helopost}/>                               
-                    </Fade>
+                </div>  
 
+                    <Fade bottom opposite when={this.state.toggleDrop}>
+                    <img className={this.state.toggleDrop ? "heloImage" : "hideImage"} alt="helo site" src={helofeed}/>
+                    <img className={this.state.toggleDrop ? "heloImage" : "hideImage"} alt="helo site" src={helopost}/>
+                    <img onClick={() => {this.handleClick()}} className={this.state.toggleDrop ? "heloArrow" : "hideImage"} alt="slide up arrow" src={arrow}/>
+                    </Fade> 
                 <div className="projectContainer">
                     <a rel="noreferrer" target="_blank" href="https://wasatchmotoring.com/"><img className="projectImage" alt="motoSite" src={motoring}/></a>
                     <div className="projectContent">
