@@ -27,7 +27,7 @@ export default class Menu extends Component{
                     </Link>
                     <Link className="menuLink"
                         activeClass="active"
-                        to="Projects"
+                        to="SmallProjects"
                         spy={true}
                         smooth={true}
                         offset={0}
