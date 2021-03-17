@@ -4,6 +4,7 @@ import motoring from '../../media/motoring.png'
 import helohome from '../../media/helohome.png'
 import helofeed from '../../media/helofeed.png'
 import helopost from '../../media/helopost.png'
+import github from '../../media/GitHub.png'
 import {Fade} from 'react-reveal';
 import arrow from '../../media/greyarrow.png'
 import './SmallProjects.css'
@@ -30,7 +31,7 @@ export default class SmallProjects extends Component{
                     <div className="projectContent">
                         <a rel="noreferrer" target="_blank" href="http://161.35.229.217:4000/#/"><h1 className="headingLink">Start Up Eccommerce Website</h1></a>
                         <h3 className="headingLink">React, Node.js, PostgreSQL, Javascript, HTML, CSS, Stripe, and Nodemailer</h3>
-                        <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/swerve"><img className="github" alt="githublogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/swerve"><img className="github" alt="githublogo" src={github}/></a>
                     </div> 
                 </div>   
 
@@ -39,7 +40,7 @@ export default class SmallProjects extends Component{
                     <div className="projectContent">
                         <h1 onClick={() => {this.handleClick()}} className="headingLink">Social Media Site</h1>
                         <h3 onClick={() => {this.handleClick()}} className="headingLink">React, Node.js, PostgreSQL, Javascript, CSS</h3>
-                        <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/helo"><img className="github" alt="githublogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
+                        <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/helo"><img className="github" alt="githublogo" src={github}/></a>
                     </div>
                 </div>  
 
@@ -52,7 +53,7 @@ export default class SmallProjects extends Component{
                     <a rel="noreferrer" target="_blank" href="https://wasatchmotoring.com/"><img className="projectImage" alt="motoSite" src={motoring}/></a>
                     <div className="projectContent">
                     <a rel="noreferrer" target="_blank" href="https://wasatchmotoring.com/"><h1 className="headingLink">Car Accessory Business Website</h1></a>
-                    <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/Wasatch-Motoring"><img className="github" alt="githublogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
+                    <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/Wasatch-Motoring"><img className="github" alt="githublogo" src={github}/></a>
                     </div> 
                 </div>    
             </div>
