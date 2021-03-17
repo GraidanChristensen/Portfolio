@@ -15,7 +15,7 @@
 
 .projectImage{
     opacity: 1;
-    width: 50vw;
+    width: 60vw;
     margin-bottom: 50px;
     border: 1px solid rgb(233, 233, 233);
     transition: .5s ease;
@@ -59,7 +59,7 @@ a:link {
   }
 
 .projectContainer:hover .projectImage {
-    opacity: 0.2;
+    opacity: 0.1;
   }
   
   .projectContainer:hover .projectContent {
@@ -72,12 +72,12 @@ a:link {
 }
 
 @media only screen and (max-width: 800px){
-    /* .SmallProjects{
-        margin-top: 20px;
-    } */
-
+    .headingLink{
+        font-size: small;
+    }
     .github{
         margin-bottom: 10px;
+        width: 30px;
     }
 
     .projectImage{

@@ -15,8 +15,16 @@ export default class SmallProjects extends Component{
                         <h3 className="headingLink">React, Node.js, PostgreSQL, HTML, CSS, Stripe, and Nodemailer</h3>
                         <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/swerve"><img className="github" alt="githublogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
                     </div> 
-                </div>               
-                <a rel="noreferrer" target="_blank" href="https://wasatchmotoring.com/"><img className="projectImage" alt="motoSite" src={motoring}/></a>
+                </div>       
+
+
+                <div className="projectContainer">
+                    <a rel="noreferrer" target="_blank" href="https://wasatchmotoring.com/"><img className="projectImage" alt="motoSite" src={motoring}/></a>
+                    <div className="projectContent">
+                    <a rel="noreferrer" target="_blank" href="https://wasatchmotoring.com/"><h1 className="headingLink">Car Accessory Business Website</h1></a>
+                    <a rel="noreferrer" target="_blank" href="https://github.com/GraidanChristensen/Wasatch-Motoring"><img className="github" alt="githublogo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"/></a>
+                    </div> 
+                </div>          
             </div>
         )
     }
