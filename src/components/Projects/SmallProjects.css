@@ -83,7 +83,7 @@ a:link {
 
 .github{
     width: 50px;
-    opacity: 60%;
+    opacity: .6;
 }
 
 @media only screen and (max-width: 800px){
