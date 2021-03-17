@@ -17,7 +17,7 @@ export default class About extends Component{
             <div className="About" id="About">
                 <div className="firstAbout large">
                     <Fade left>
-                        <h1>I'm a young and ambitious full stack web developer from Utah. I've enjoyed coding for about 3 years.  Any new language, skill, problem or task excites me and motivates me to learn and work hard.</h1>
+                        <h1>I'm a young and ambitious full stack web developer from Utah. I've been on the coding journey for about 3 years.  Any new language, skill, problem or task excites me and motivates me to learn and work hard.</h1>
                     </Fade>
                 </div>
                 <div className="aboutSpacing large">
